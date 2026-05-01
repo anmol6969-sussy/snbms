@@ -1,0 +1,125 @@
+﻿.\apache-maven-3.9.6\bin
+\mvn.cmd : WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ .\apache-maven-3.9.6\b
+in\mvn.cmd cargo:run -q 
+2>&1 | Out-File -FilePa 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo      
+        : NotSpecified: 
+(WAR    NING: A 
+rest...has bee    n 
+called:String) [], R    
+emoteException
+    + 
+FullyQualifiedErrorI    
+d : NativeCommandError
+ 
+WARNING: 
+java.lang.System::load 
+has been called by org.f
+usesource.jansi.internal
+.JansiLoader in an 
+unnamed module (file:/C:
+/javaa/java%20coursework
+/apache-maven-3.9.6/lib/
+jansi-2.4.0.jar)
+WARNING: Use --enable-na
+tive-access=ALL-UNNAMED 
+to avoid a warning for 
+callers in this module
+WARNING: Restricted 
+methods will be blocked 
+in a future release 
+unless native access is 
+enabled
+
+WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+WARNING: sun.misc.Unsafe
+::objectFieldOffset has 
+been called by com.googl
+e.common.util.concurrent
+.AbstractFuture$UnsafeAt
+omicHelper (file:/C:/jav
+aa/java%20coursework/apa
+che-maven-3.9.6/lib/guav
+a-32.0.1-jre.jar)
+WARNING: Please 
+consider reporting this 
+to the maintainers of 
+class com.google.common.
+util.concurrent.Abstract
+Future$UnsafeAtomicHelpe
+r
+WARNING: sun.misc.Unsafe
+::objectFieldOffset 
+will be removed in a 
+future release
+Apr 16, 2026 10:53:17 
+AM org.apache.coyote.Abs
+tractProtocol init
+INFO: Initializing 
+ProtocolHandler 
+["http-nio-8088"]
+Apr 16, 2026 10:53:17 
+AM org.apache.catalina.c
+ore.StandardService 
+startInternal
+INFO: Starting service 
+[Tomcat]
+Apr 16, 2026 10:53:17 
+AM org.apache.catalina.c
+ore.StandardEngine 
+startInternal
+INFO: Starting Servlet 
+engine: [Apache 
+Tomcat/10.1.18]
+Apr 16, 2026 10:53:17 
+AM org.apache.coyote.Abs
+tractProtocol start
+INFO: Starting 
+ProtocolHandler 
+["http-nio-8088"]
+Apr 16, 2026 10:53:18 
+AM org.apache.catalina.c
+ore.StandardContext 
+setPath
+WARNING: A context path 
+must either be an empty 
+string or start with a 
+'/' and do not end with 
+a '/'. The path [/] 
+does not meet these 
+criteria and has been 
+changed to []
+Apr 16, 2026 10:53:19 
+AM org.apache.catalina.s
+tartup.ContextConfig 
+getDefaultWebXmlFragment
+INFO: No global web.xml 
+found
+Apr 16, 2026 10:53:23 
+AM org.apache.jasper.ser
+vlet.TldScanner scanJars
+INFO: At least one JAR 
+was scanned for TLDs 
+yet contained no TLDs. 
+Enable debug logging 
+for this logger for a 
+complete list of JARs 
+that were scanned but 
+no TLDs were found in 
+them. Skipping unneeded 
+JARs during scanning 
+can improve startup 
+time and JSP 
+compilation time.
