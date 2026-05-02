@@ -74,11 +74,6 @@
 
         <button type="submit" id="loginBtn" class="login-btn">Login</button>
 
-        <div class="auth-footer">
-            Don't have an account?
-            <a href="${pageContext.request.contextPath}/register">Register here</a>
-        </div>
-
       </form>
 
       <a href="#" class="forgot-link">Forgot password?</a>
