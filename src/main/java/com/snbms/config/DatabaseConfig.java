@@ -94,11 +94,9 @@ public class DatabaseConfig {
             stmt.execute("INSERT IGNORE INTO users (id, username, password, full_name, email, role, status) " +
                          "VALUES (1, 'admin', '" + adminPass + "', 'System Administrator', 'admin@snbms.local', 'ADMIN', 'Active')");
 
-            stmt.execute("INSERT IGNORE INTO users (id, username, password, full_name, email, role, status) " +
-                         "VALUES (2, 'teacher1', '" + teacherPass + "', 'John Doe', 'teacher1@snbms.local', 'TEACHER', 'Active')");
+            stmt.execute("VALUES (2, 'teacher1', '" + teacherPass + "', 'Ramesh Adhikari', 'teacher1@snbms.local', 'TEACHER', 'Active')");
 
-            stmt.execute("INSERT IGNORE INTO users (id, username, password, full_name, email, role, status) " +
-                         "VALUES (3, 'student1', '" + studentPass + "', 'John Student', 'student1@snbms.local', 'STUDENT', 'Active')");
+            stmt.execute("VALUES (3, 'student1', '" + studentPass + "', 'Aarav Thapa', 'student1@snbms.local', 'STUDENT', 'Active')");
 
             // Seed Categories
             String[] categories = {
