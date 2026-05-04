@@ -22,6 +22,7 @@ public class ComplaintFormServlet extends HttpServlet {
         req.getRequestDispatcher("/WEB-INF/views/student/complaintForm.jsp").forward(req, resp);
     }
 
+    // Constructor
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int studentId = (int) req.getSession().getAttribute("userId");

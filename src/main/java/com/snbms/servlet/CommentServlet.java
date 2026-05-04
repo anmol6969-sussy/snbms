@@ -14,6 +14,7 @@ import java.io.IOException;
 public class CommentServlet extends HttpServlet {
     private CommentDao commentDao = new CommentDao();
 
+    // Constructor
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int userId = (int) req.getSession().getAttribute("userId");

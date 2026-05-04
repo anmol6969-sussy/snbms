@@ -14,6 +14,7 @@ public class CommentDao {
         "avatar-blue", "avatar-green", "avatar-red", "avatar-purple", "avatar-teal"
     };
 
+    // Constructor
     private Comment mapResultSetToComment(ResultSet rs, int cycleIndex) throws SQLException {
         Comment c = new Comment();
         c.setId(rs.getInt("id"));

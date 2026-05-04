@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComplaintDao {
-    
+
+    // Constructor
     private Complaint mapResultSetToComplaint(ResultSet rs, boolean hideIdentity) throws SQLException {
         Complaint c = new Complaint();
         c.setId(rs.getInt("id"));
