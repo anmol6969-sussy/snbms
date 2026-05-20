@@ -24,6 +24,7 @@ public class DatabaseConfig {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 
+    // Database Initialization
     private static void initDatabase() {
         try (Connection conn = getConnection();
              Statement stmt = conn.createStatement()) {
